@@ -1,2 +1,20 @@
-@define-color foreground #8a8a8d;
-@define-color background #1e1e1e;
+@define-color foreground #e7e9ea;
+@define-color background #000000;
+
+* {
+  background-color: @background;
+  color: @foreground;
+  /* font-family: SF Pro Display; */
+  font-family: JetBrainsMono Nerd Font Propo;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+/* #workspaces button.active label {  */
+/*     font-weight: bold;  */
+/*     border-bottom: 2px solid @foreground; */
+/* } */
+
+#workspaces button.active {
+    border-bottom: 1px solid @foreground;
+}
