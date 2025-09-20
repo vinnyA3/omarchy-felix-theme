@@ -1,8 +1,12 @@
 return {
 	{
+		"bjarneo/ash.nvim",
+		name = "ash",
+	},
+	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "quiet",
+			colorscheme = "ash",
 		},
 	},
 }
